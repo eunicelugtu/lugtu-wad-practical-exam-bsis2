@@ -30,7 +30,7 @@
         <button type="submit">Update Transaction</button>
     </form>
 
-    <form action="{{route('showTransaction', ['id' => $transaction->id0])}}" method="GET">
+    <form action="{{route('showTransaction', ['id' => $transaction->id])}}" method="GET">
         <button type="submit">Back to Current Transaction</button>
     </form>
 
