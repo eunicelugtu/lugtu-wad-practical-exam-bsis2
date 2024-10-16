@@ -70,7 +70,7 @@ class TransactionController extends Controller
             'description' => 'required|string|max:100',
             'status' => 'required|string|max:15',
             'total_amount' => 'required|integer',
-            'transaction_number' => 'required|string|max:30'
+            'transaction_number' => 'required|string|max:15'
         ]);
 
         $transaction = Transaction::find($request->id);
