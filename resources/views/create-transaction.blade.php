@@ -33,6 +33,7 @@
     <form action="{{route('showAllTransactions')}}" method="GET">
         <button type="submit">Back to Transactions Page</button>
     </form>
+
     
 </body>
 </html>
